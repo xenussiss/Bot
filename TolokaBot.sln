@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TolokaBot", "TolokaBot\TolokaBot.csproj", "{A0ADEF0E-128A-4FC1-BB57-2C80C26265E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageObject", "PageObject", "{6CCF3A27-BA51-415C-8D8D-E3E41F8EC7E5}"
+	ProjectSection(SolutionItems) = preProject
+		TolokaBot\Bok_o_bok_poiskPageObject.cs = TolokaBot\Bok_o_bok_poiskPageObject.cs
+		TolokaBot\Bok_o_bok_sravnenie_organizaciiPageObject.cs = TolokaBot\Bok_o_bok_sravnenie_organizaciiPageObject.cs
+		TolokaBot\LoginPageObject.cs = TolokaBot\LoginPageObject.cs
+		TolokaBot\LogoStartPageObj.cs = TolokaBot\LogoStartPageObj.cs
+		TolokaBot\MainPAgeObject.cs = TolokaBot\MainPAgeObject.cs
+		TolokaBot\PasswordPageObject.cs = TolokaBot\PasswordPageObject.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0ADEF0E-128A-4FC1-BB57-2C80C26265E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ADEF0E-128A-4FC1-BB57-2C80C26265E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ADEF0E-128A-4FC1-BB57-2C80C26265E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ADEF0E-128A-4FC1-BB57-2C80C26265E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CFC25B5-6B38-4C9A-ABCD-C826544455DE}
+	EndGlobalSection
+EndGlobal
